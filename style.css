@@ -23,6 +23,18 @@ body::before{
     z-index: -1;
 }
 
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    min-height: 100dvh;
+}
+
+
 h1{
     font-weight: 600;
     font-size: 42px;
