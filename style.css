@@ -14,7 +14,7 @@ body::before{
     content: "";
     position: fixed;
     width: 100%;
-    height: 100%;
+    height: 150%;
     background-image: url(img/blour.jpg);
     background-position: top;
     background-repeat: no-repeat;
@@ -161,7 +161,6 @@ header a:active {
         transform: translateY(0);
     }
 }
-
 
 .flecheUp{
     position: fixed;
