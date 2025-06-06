@@ -160,13 +160,19 @@ header a:active {
         width: 100%;
         padding: 20px;
         gap: 15px;
-        transform: translateY(-200%);
-        transition: transform 0.3s ease;
+        opacity: 0;
+        transform: translateY(-20px);
+        pointer-events: none;
+        transition: opacity 0.3s ease, transform 0.3s ease;
+        display: flex; /* toujours visible pour l’animation, mais invisible visuellement */
     }
 
     .nav-links.active {
+        opacity: 1;
         transform: translateY(0);
+        pointer-events: auto;
     }
+
 }
 
 .flecheUp{
