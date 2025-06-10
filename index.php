@@ -9,9 +9,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
 </head>
 
 <body>
+    <div id="loader">
+        <div class="spinner"></div>
+        <p>Chargement en cours...</p>
+    </div>
+
     <div class="flecheUp">
         <a href="#header"><img src="img/logo/fleche-droite.png" alt=""></a>
     </div>
