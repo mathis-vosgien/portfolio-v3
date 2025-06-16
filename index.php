@@ -174,7 +174,81 @@
     </section>
     <section id="experiences" class="experiences">
         <div>
-            <h1>En cours...</h1>
+            <h1>Expériences</h1>
+            <h2 class="title">Stages</h2>
+            <div class="info">
+                <div class="stage-item">
+                    <h2>&#128073;&#127996; Stage - 1 semaine - UX/UI design - Citalid en 2023 - Paris 17ème</h2>
+                    <p>Stage immersif avec le designer UX/UI de Citalid (une scale-up) où j'ai appris les bases de Figma et redécouvert le monde de l'entrepreneuriat, dans un open space.</p>
+                </div>
+                <div class="stage-item">
+                    <h2>&#128073;&#127996; Stage - 1 semaine - Web marketing - Logpoint en 2022 - Rueil-Malmaison</h2>
+                    <p>J'ai passé une semaine à créer un site web sur WordPress et appris quelques techniques de SEO pour améliorer le référencement d'un site. Surtout, j'ai développé un goût pour le développement web.</p>
+                </div>
+                <div class="stage-item">
+                    <h2>&#128073;&#127996; Stage - 1 semaine - Marketing - Sophos en 2018 - Bezons</h2>
+                    <p>J'ai découvert le monde de l'entreprise, ses différents départements et son organisation. Principalement rattaché à l'équipe marketing, j'ai rapidement vu comment sont organisés les salons professionnels et j'ai particulièrement apprécié la partie webmarketing.</p>
+                </div>
+            </div>
+            <h2 class="title">Certifications</h2>
+            <div class="certif-items">
+                <div class="certif-item">
+                    <a href="certifications/attestation-pix-20240506.pdf" target="_blank">
+                        <img src="certifications/pix.png" alt="">
+                        <p>Attestation de compétences numériques</p>
+                        <div class="statusVerif">
+                            <img src="img/pointsVert.png" alt="">
+                            <p>Certifié</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="certif-item">
+                    <a href="#Certificates">
+                        <img src="certifications/projetvoltaire.png" alt="">
+                        <p>Attestation de niveau en orthographe</p>
+                        <div class="statusNone">
+                            <img src="img/pointsOrange.png" alt="">
+                            <p>En cours</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="certif-item">
+                    <a href="#Certificates">
+                        <img src="certifications/openclassrooms.png" alt="">
+                        <p>Attestation de suivi de cours</p>
+                        <div class="statusNone">
+                            <img src="img/pointsOrange.png" alt="">
+                            <p>En cours</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="certif-item">
+                    <a href="#Certificates">
+                        <img src="certifications/Udemy_logo.svg.png" alt="">
+                        <p>Attestation de suivi de cours</p>
+                        <div class="statusNone">
+                            <img src="img/pointsOrange.png" alt="">
+                            <p>En cours</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="certif-item">
+                    <a href="#Certificates">
+                        <img src="certifications/Visa_de_securite_anssi_2017_logo-fr.png" alt="">
+                        <p>Sec Num Académie - MOOC ANSSI</p>
+                        <div class="statusNone">
+                            <img src="img/pointsOrange.png" alt="">
+                            <p>En cours</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="stage">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
         </div>
     </section>
     <section id="contact" class="contact">
