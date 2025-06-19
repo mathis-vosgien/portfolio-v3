@@ -1,0 +1,386 @@
+body{
+    margin: 0px;
+}
+
+h1{
+    font-size: 55px;
+    margin-top: 22px;
+    margin-bottom: 0px;
+}
+
+a img{
+    width: 17px;
+    padding-left: 30px;
+    padding-top: 35px;
+    transition: 0.8s;
+}
+
+a img:hover{
+    width: 30px;
+    transition: 0.5s;
+}
+
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    padding-bottom: 30px;
+    background-color:white;
+}
+
+.logo-apple{
+    flex: 1;
+    display: flex;
+    justify-content: left;
+    padding-left: 6%;
+}
+
+.logo-apple img{
+    width: 60px;
+    height: 74.23px;
+}
+
+.menu{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.menu button{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    background-color: white;
+    margin-left: 5%;
+    margin-right: 1%;
+    color: #313131;
+    border: none;
+    font-size: 17px;
+    margin-top: 10px;
+    padding-bottom: 10px;   
+}
+
+.menu button:hover{
+    border-bottom: solid;
+    border-width: 1px ;
+    border-color: #313131;
+}
+
+.menu button:focus{
+    border-bottom: solid ;
+    border-width: 1px;
+}
+
+.introduction{    
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Roboto", sans-serif;
+    position: relative;
+    height: 530px;
+    padding-left: 80px;
+    color: #313131;
+}
+
+.introduction::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(png/glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover ;
+    opacity: 0.1 ;
+}
+
+.introduction a, .introduction button {
+    position: relative;
+    z-index: 2;
+    color: white;
+}
+
+.profil{
+    flex: 1;
+    justify-content: left;
+}
+
+.profil-picture{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+.profil-picture img{
+    width: 300px;
+    border: 15px solid rgba(91, 91, 91, 0.500);
+    margin-bottom: -4px;
+    border-radius: 200px;
+}
+
+.profil-picture .inner-border {
+    padding-bottom: 0px;
+    border-radius: 200px;
+    border: 20px solid rgba(188, 188, 188, 0.500);
+}
+
+.profil .info{
+    display: flex;
+}
+
+.profil .info p{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: #313131;
+    text-decoration: none;
+}
+
+.profil .info img{
+    margin-top: 3px;
+    width: 15px;
+    margin-right: 15px;
+}
+
+.bonjour button{
+    background-color:#0bceaf;
+    border: none;
+    color: white;
+    font-weight: 600;
+    padding: 8px;
+    margin-top:120px ;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 15px 15px 15px 2px;
+    font-size: 13px;
+    transition: 0.90s;
+}
+
+.bonjour button:hover{
+    padding: 12px;
+    font-size: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    transition: 0.90s;
+}
+
+.sous-h1{
+    margin-top: 0px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.a-propos{
+    display: flex; 
+    flex-wrap: wrap;
+    font-family: "Roboto", sans-serif;
+    color: #313131;
+    margin-bottom: 400px;
+}
+
+.a-propos button:hover{
+    font-size: 23px;
+    transition: 0.3s;
+}
+
+.illustration{
+    flex: 1;
+    margin-top: 90px;
+    justify-content: center;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.illustration img{
+    width: 100%;
+}
+
+.info-a-propos{
+    flex: 1;
+    margin-left: 20px;
+    padding-right: 100px;
+    margin-top: 100px;
+}
+
+.de-moi{
+    margin-top: 0px;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.je-suis-alex{
+    padding-bottom: 30px;
+}
+
+.button-a-propos{
+    margin-left: 10px;
+}
+
+.button-a-propos button{
+    background-color: white;
+    border: solid;
+    border-color: #0bceaf;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #313131;
+    border-width: 2px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    transition: 0.3s;
+}
+
+.CV a{
+    background-color:#0bceaf;
+    border: none;
+    color: white;
+    font-weight: 600;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    margin-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 25px;
+    font-size: 16px;
+    margin-left: 30px;
+    transition: 0.8s;
+    text-decoration: none;
+}
+
+
+.CV a:hover{
+    font-size: 20px;
+    border-radius: 30px;
+    transition: 0.8s;
+}
+
+.CV img{
+    width: 16px;
+    margin-bottom: -3px;
+    margin-left: 10px;
+    padding-left: 0px;
+}
+
+@media screen and (max-width: 800px) {
+    
+    body{
+        margin: 8px;
+    }
+
+    a img:hover{
+        width: 17px;
+        padding-left: 30px;
+        padding-top: 35px;
+        transition: 0.8s;
+    }
+    
+    .header{
+        display: grid;
+    }
+
+    .header .logo-apple{
+        justify-content: center;
+        margin-bottom: 30px;
+        padding-left: 0px;
+    }
+
+    .header .menu{
+        display: inline;
+        text-align: center;
+    }
+
+    .header .menu button{ 
+        padding-top:10 ;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right:10px ;
+        margin: 0.9%;
+    }
+
+    .introduction{
+        height: auto;
+        padding-left: 10px;
+    }
+
+    .introduction::before{
+        background-image: none;
+    }
+    
+    .introduction .bonjour button{
+        margin-top: 0px;
+        pointer-events: none;
+    }
+
+    .profil-picture{
+        margin-top: 30px;
+    }
+    
+    .profil-picture img{
+        width: 200px;
+    }
+
+    .link{
+        text-align: center;
+        margin-left: -38px;
+    }
+    .a-propos{
+        display: grid;
+    }
+
+    .illustration{
+        order :2;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+ 
+    .info-a-propos{
+        order: 1;
+        padding-right: 0px;
+        margin-top: 20px;
+    }
+
+    .button-a-propos{
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .button-a-propos button{
+        font-size: 9px;
+        margin-left: 0px;
+        margin-right: 10px;
+    }
+    
+    .CV{
+        text-align: center;
+    }
+
+    .CV a{
+        margin-left: 0px;
+    }
+
+    .CV a:hover{
+        background-color:#0bceaf;
+        border: none;
+        color: white;
+        font-weight: 600;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        margin-top: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 25px;
+        font-size: 16px;
+        margin-left: 0px;
+        transition: 0.8s;
+        text-decoration: none;
+    }
+
+    .button-a-propos:hover{
+        pointer-events: none;
+    }
+
+}

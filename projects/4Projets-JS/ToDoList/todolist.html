@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/verifier.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+</head>
+<body>
+    <a href="../../../index.php#projets" class="back-to-top" title="Retour en haut"><span class="material-symbols-outlined">
+        arrow_back_ios
+        </span></a>
+    <div class="container">
+        <div class="todo-app">
+            <h2>To-Do List</h2>
+            <form action="" class="row">
+                <input type="text" id="input-box" placeholder="Ajouter une tâche...">
+                <button class="add" onclick="addTask()"><p class="btn_add">Ajouter</p> <img class="arrow_add" src="img/right-arrow.png" alt=""></button>
+            </form>
+            <ul id="list-container">
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

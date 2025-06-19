@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Convertisseur</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>
+  <a href="../../../index.php#projets" class="back-to-top" title="Retour en haut"><span class="material-symbols-outlined">
+    arrow_back_ios
+  </span></a>
+  <div class="wrapper">
+    <header>Convertisseur</header>
+    <form action="#">
+      <div class="amount">
+        <p>Entrez le montant</p>
+        <input type="text" value="1">
+      </div>
+      <div class="drop-list">
+        <div class="from">
+          <p>De</p>
+          <div class="select-box">
+            <img src="https://flagcdn.com/48x36/us.png" alt="flag">
+            <select> <!-- Options gerer avec JS --> </select>
+          </div>
+        </div>
+        <div class="icon"><i class="fas fa-exchange-alt"></i></div>
+        <div class="to">
+          <p>À</p>
+          <div class="select-box">
+            <img src="https://flagcdn.com/48x36/np.png" alt="flag">
+            <select> <!-- Options gerer avec JS --> </select>
+          </div>
+        </div>
+      </div>
+      <div class="exchange-rate">Obtention du taux de change...</div>
+      <button>Obtenir le taux de change</button>
+    </form>
+  </div>
+
+  <script src="js/country-list.js"></script>
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>

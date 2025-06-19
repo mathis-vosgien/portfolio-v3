@@ -1,0 +1,485 @@
+body{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    padding: 0 16%;
+    box-shadow: 0px 2px 6px 0px rgba(163,163,163,0.45);
+}
+
+header img{
+    width: 50px;
+    margin: 16px 0;
+}
+
+header .nav{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+
+header .nav a{
+    margin: 0 40px;
+    text-decoration: none;
+    color: #1e3d60;
+    font-family: "Kumbh Sans", serif;
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+header .nav a:hover{
+    color: #f26a2e;
+    transition: 0.5S;
+}
+
+header .bb{
+    display: none;
+}
+
+.sec1{
+    display: flex;
+    padding: 100px 16%;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+.sec1 .text{
+    flex: 1;
+    padding-right: 20px;
+}
+
+.sec1 .img {
+    flex: 1;
+}
+
+.sec1 .img img{
+    width: 100%;
+    border-radius: 45px;
+}
+
+.sec1 h1{
+    font-size: 48px;
+    font-family: "Newsreader", serif;
+    font-weight: 600;
+    color: #0f437f;
+}
+
+.sec1 p{
+    font-size: 14px;
+    font-family: "Kumbh Sans", serif;
+    color: #1e3d60;
+}
+
+.sec1 .exp{
+    margin-right: 10px;
+    padding: 15px 25px;
+    border: none;
+    background-color: #1e3d60;
+    color: white;
+    font-family: "Kumbh Sans", serif;
+    font-weight: 600;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+
+.sec1 .exp:hover{
+    background-color: #1e3d6091;
+    transition: 0.5s;
+    padding: 16px 26px;
+}
+
+.sec1 .ln{
+    background-color: #d3d6da ;
+    color: #1e3d60 ;
+    padding: 15px 25px;
+    border: none;
+    font-family: "Kumbh Sans", serif;
+    font-weight: 700;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+
+.sec1 .ln:hover{
+    background-color: #d3d6dab3;
+    transition: 0.5s;
+    padding: 16px 26px;
+}
+
+.sec2{
+    background-color: #1e3d60;
+    justify-content: center;
+    text-align: center;
+    padding: 100px 16%;
+}
+
+.sec2 h2{
+    color: white;
+    font-family: "Newsreader", serif;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.sec2 .allCat {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.sec2 .allCat .catG{
+    background-color: white;
+    margin: 0 20px;
+    padding: 30px;
+
+}
+
+.sec2 .allCat .catG img{
+    width: 100%;
+    border-radius: 45px;
+
+}
+
+.sec2 .allCat .catG p{
+    text-align: left;
+}
+
+.sec2 .allCat .catG .title{
+    font-family: "Newsreader", serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #0f437f;
+}
+
+.sec2 .allCat .catG .info{
+    line-height: 1.5;
+    font-family: "Newsreader", serif;
+    color: rgb(126, 126, 126);
+}
+
+.sec2 .allCat .catG .btn {
+    text-align: left;
+}
+
+.sec2 .allCat .catG .btn button{
+    padding: 10px 20px;
+    border: none;
+    background-color: #0f437f;
+    color: white;
+    font-family: "Kumbh Sans", serif;
+    font-weight: 600;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+
+.sec2 .allCat .catG .btn button:hover{
+    background-color: #1e3d60;
+    transition: 0.5s;
+    padding: 12px 22px;
+}
+
+.sec2 button:hover{
+    background-color: #1e3d6091;
+    transition: 0.5s;
+    padding: 16px 26px;
+}
+
+.sec2 .btnExterne {
+    padding: 15px 25px;
+    border: none;
+    background-color: #0f437f;
+    color: white;
+    font-family: "Kumbh Sans", serif;
+    font-weight: 600;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 50px;
+    transition: 0.5s;
+}
+
+.sec3{
+    display: flex;
+    padding: 100px 16%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sec3 .text{
+    flex: 1;
+    padding-right: 20px;
+}
+
+.sec3 .text h1{
+    font-family: "Newsreader", serif;
+    font-weight: 600;
+    color: #0f437f;
+    font-size: 36px;
+}
+
+.sec3 .text p{
+    font-family: "Kumbh Sans", serif;
+    color: #0f437f;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.sec3 .text .blue{
+    margin-right: 10px;
+    padding: 15px 25px;
+    border: none;
+    background-color: #1e3d60;
+    color: white;
+    font-family: "Kumbh Sans", serif;
+    font-weight: 600;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.sec3 .text .gray{
+    background-color: #1e3d6034;
+    color: #1e3d60;
+    padding: 15px 25px;
+    border: none;
+    font-family: "Kumbh Sans", serif;
+    font-weight: 600;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.sec3 .right {
+    flex: 1;
+}
+
+.sec3 .right .img img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.sec3 .right .quote {
+    position: relative;
+    z-index: 2;
+    background-color: white;
+    margin: -100px auto 0 auto;
+    width: 76%;
+    box-shadow: 0px 2px 29px 3px rgba(163,163,163,0.27);
+    padding: 25px;
+    border-radius: 20px;
+}
+
+.sec3 .right .quote h2{
+    font-family: "Newsreader", serif;
+    font-weight: 700;
+    color: #0f437f;
+    font-size: 16px;
+    line-height: 1.3;
+    margin-top: 5px;
+}
+
+.sec3 .right .quote .name{
+    font-family: "Kumbh Sans", serif;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 4px;
+    color: #1e3d60;
+}
+
+.sec3 .right .quote .post{
+    font-family: "Kumbh Sans", serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(126, 126, 126);
+    margin-top: 0;
+}
+
+.sec4{
+    display: flex;
+    padding: 100px 16%;
+    background-image: url("img/canyon.jpg");
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sec4 .text{
+    flex: 1;
+    padding-right: 20px;
+    margin-top: 20px;
+}
+
+.sec4 .text h1{
+    font-family: "Newsreader", serif;
+    font-weight: 600;
+    color: #0f437f;
+    font-size: 28px;
+}
+
+.sec4 .text p{
+    font-family: "Kumbh Sans", serif;
+    color: white;
+    font-size: 11px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.sec4 .text button{
+    background-color: white;
+    color: #0f437f;
+    padding: 15px 35px;
+    border: none;
+    font-family: "Kumbh Sans", serif;
+    font-weight: 700;
+    font-size: 12px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+
+.sec4 .text button:hover{
+    background-color: #f26a2e;
+    color: white;
+    transition: 0.5s;
+}
+
+.sec4 .stats{
+    flex: 2;
+    display: flex;
+    align-items: center;
+}
+
+.sec4 .stats .left{
+    flex: 1;
+
+}
+
+.sec4 .stats .right{
+    flex: 1;
+
+}
+
+.sec4 .stat {
+    background-color: white;
+    padding: 10px 20px;
+    margin: 16px 16px 16px 0;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.sec4 .stat p{
+    color:#62778F;
+    font-family: "Kumbh Sans", serif;
+    
+}
+
+.sec4 .stat .numb{
+    font-size: 38px;
+    font-weight: 700;
+    margin: 8px 0;
+}
+
+.sec4 .stat .info{
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 26px;
+}
+
+footer{
+    display: flex;
+    padding: 0 16%;
+    justify-content: space-between;
+    background-color: #1e3d60;
+}
+
+footer .left{
+    color: rgba(255, 255, 255, 0.458);
+    font-family: "Kumbh Sans", serif;
+    font-size: 10px;
+}
+
+footer .right {
+    display: flex;
+    align-items: center;
+}
+
+footer .right img{
+    width: 12px;
+    margin: 9px 3px;
+    padding: 4px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+@media screen and (max-width:767px) {
+    header{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 16%;
+        box-shadow: 0px 2px 6px 0px rgba(163,163,163,0.45);
+    }
+    
+    header img{
+        width: 26px;
+        margin: 16px 0;
+    }
+    
+    header .nav{
+        display: none
+    }
+    
+    header .nav a{
+        margin: 0 40px;
+        text-decoration: none;
+        color: #1e3d60;
+        font-family: "Kumbh Sans", serif;
+        font-weight: 700;
+    }
+
+    header .bb{
+        display: inherit;
+    }
+    
+    .sec1{
+        display: grid;
+        padding: 50px 16%;
+        justify-content: space-between;
+        align-items: center;
+    } 
+
+    .sec1 .ln{
+        margin-bottom: 20px;
+    }
+    
+    .sec2 .allCat {
+        display: grid;
+    }
+
+    .sec2 .allCat .catG {
+        margin: 20px 20px;
+    }
+    
+    .sec3{
+        display: grid;
+    }
+    
+    .sec3 .text .gray{
+        margin-bottom: 20px;
+    }
+    
+    .sec3 .right .img img{
+        width: 100%;
+        border-radius: 20px;
+    }
+      
+    .sec4{
+        display: grid;
+    }
+}
+

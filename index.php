@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="https://avatars.githubusercontent.com/u/84449523?v=4">
     <script src="script.js"></script>
 </head>
 
@@ -51,7 +52,7 @@
             <div class="logo">
                 <a href="https://github.com/mathis-vosgien" target="_blank"><img src="img/logo/github.png" alt=""></a>
                 <a href="https://www.linkedin.com/in/mathis-vosgien/" target="_blank"><img src="img/logo/linkedin.png" alt=""></a>
-                <a href=""><img src="img/logo/cv.png" alt=""></a>
+                <a href="Resume03-25.pdf" target="_blank"><img src="img/logo/cv.png" alt=""></a>
             </div>
         </div>
     </section>
@@ -167,11 +168,166 @@
         </div>
 
     </section>
+
     <section id="projets" class="projets">
         <div>
-            <h1>En cours...</h1>
+            <h1>Projets</h1>
+        </div>
+        <div class="container">
+            <button class="openModal" data-modal="modal1" style="background-image: url(img/projects/AlexJohnson.png)">
+                <h2>Alex Johnson</h2>
+            </button>
+            <button class="openModal" data-modal="modal2" style="background-image: url(img/projects/Integration2.png)">
+                <h2>Intégration 2</h2>
+            </button>
+            <button class="openModal" data-modal="modal3" style="background-image: url(img/projects/POC2025.png)">
+                <h2>POC 2025</h2>
+            </button>
+            <button class="openModal" data-modal="modal4" style="background-image: url(img/projects/VetX.png)">
+                <h2>Vet X</h2>
+            </button>
+            <button class="openModal" data-modal="modal5" style="background-image: url(img/projects/4ProjJS.png)">
+                <h2>4 Projets JS</h2>
+            </button>
+            <button class="openModal" data-modal="modal6" style="background-image: url(img/projects/firstGame.png)">
+                <h2>Premier Jeu</h2>
+            </button>
         </div>
     </section>
+
+    <!-- Fenêtre Modale 1 -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Alex Johnson - HTML/CSS - Individuel</h2>
+            <div style="text-align: left; line-height : 1.5">
+                <p>Ce premier projet a pour objectif d'appliquer les fondamentaux du développement web en créant une <strong>Landing Page</strong>. Le but est de maîtriser la <strong>structure HTML</strong> et le <strong>style CSS</strong> tout en suivant les bonnes pratiques de codage.</p>
+                <p><b>Compétences et concepts abordés :</b></p>
+                <ul>
+                    <li>Créer une <strong>Landing Page</strong> attrayante et fonctionnelle</li>
+                    <li>Utiliser les <strong>bonnes pratiques de codage</strong> pour garantir un code propre et maintenable</li>
+                    <li>Apprendre et appliquer la <strong>méthodologie de structuration d'un site web</strong> pour une meilleure organisation</li>
+                    <li>Mettre en place des <strong>effets au survol</strong> afin d'améliorer l'expérience utilisateur</li>
+                </ul>
+                <p><b>Durée estimée : 8 heures de codage</b></p>
+            </div>
+
+            <div class="link">
+                <p><b><a href="projects/integration1-main/index.php" target="_blank">Ouvrir ce projet dans un nouvel onglet</a></b></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fenêtre Modale 2 -->
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Intégration 2 - HTML/CSS/JS - Binôme</h2>
+            <div style="text-align: left; line-height : 1.5">
+                <p>Ce deuxième projet approfondit les compétences en intégration web en introduisant <strong>JavaScript</strong> et en développant une page avec <strong>plusieurs sections</strong>. Il met l'accent sur <strong>l'intégration progressive</strong> et <strong>l'adaptation aux différents appareils</strong>.</p>
+                <p>Compétences et concepts abordés :</p>
+                <ul>
+                    <li>Structurer et <strong>intégrer progressivement</strong> une page multi-sections</li>
+                    <li>Développer un <strong>site web responsive</strong> qui s'adapte aux différentes tailles d'écran (<em>ordinateur, tablette et mobile</em>)</li>
+                    <li>Implémenter un <strong>diaporama interactif</strong> en utilisant JavaScript</li>
+                    <li>Travailler <strong>en binôme</strong>, favorisant le travail d'équipe et la répartition des tâches</li>
+                </ul>
+                <p>Durée estimée : 15 heures de codage</p>
+            </div>
+            <div class="link">
+                <p><b><a href="projects/integration2-main/main/index.html" target="_blank">Ouvrir ce projet dans un nouvel onglet</a></b></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fenêtre Modale 3 -->
+    <div id="modal3" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>POC 2025 - Proof of Concept</h2>
+            <div style="text-align: left; line-height : 1.5">
+                <p>Ce dernier exercice est un <strong>test pratique en autonomie</strong>, réalisé dans un <strong>temps limité de 3 heures</strong>. L'objectif est d'évaluer la capacité de chaque participant à appliquer rapidement ses connaissances à un scénario réel.</p>
+                <p><strong>Il s'agit d'un défi technique conçu pour évaluer la rapidité, la logique de développement et la résolution de problèmes sous contrainte de temps.</strong></p>
+            </div>
+            <div class="link">
+                <p><b><a href="projects/POC2025-main/index.html" target="_blank">Ouvrir ce projet dans un nouvel onglet</a></b></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fenêtre Modale 4 -->
+    <div id="modal4" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>VetX - HTML/CSS/JS - Trinôme</h2>
+            <div style="text-align: left; line-height : 1.5">
+                <p>Ce troisième projet se concentre sur la réponse à un <strong>besoin professionnel réel</strong>. Il s'agit de concevoir un <strong>site web multi-pages</strong> avec une <strong>gestion avancée du responsive</strong> tout en suivant un <strong>brief détaillé</strong>.</p>
+                <p>Compétences et concepts abordés :</p>
+                <ul>
+                    <li>Comprendre et répondre à une <strong>demande réelle d'un client</strong></li>
+                    <li>Développer un <strong>site web multi-pages</strong></li>
+                    <li>Mettre en place un <strong>design responsive avancé</strong> pour s'adapter aux différents appareils et résolutions</li>
+                    <li><strong>Répartition et organisation des tâches :</strong> Chaque membre de l'équipe doit s'impliquer dans toutes les compétences (HTML, CSS, JS) afin d'assurer polyvalence et apprentissage collectif</li>
+                    <li>Suivre un <strong>brief client</strong> avec des <strong>livrables structurés à différentes étapes</strong></li>
+                </ul>
+                <p>Durée estimée : 20 heures de codage</p>
+            </div>
+            <div class="link">
+                <p><b><a href="projects/integration3_finaleVerse-main/home.html" target="_blank">Ouvrir ce projet dans un nouvel onglet</a></b></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fenêtre Modale 5 -->
+    <div id="modal5" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 style="padding-bottom:20px">4 Projets JS - HTML/CSS/JS - Individuel</h2>
+            <div class="containerf5projets">
+                <div class="card" onclick="redirectTo('projects/4Projets-JS/ToDoList/todolist.html')">
+                    <h3>Projet To-Do List</h3>
+                    <p>Une application simple pour gérer des tâches à faire, avec ajout, suppression et suivi.</p>
+                </div>
+                <div class="card" onclick="redirectTo('projects/4Projets-JS/Meteo/meteo.html')">
+                    <h3>Projet Web Météo API</h3>
+                    <p>Affiche la météo en temps réel d'une ville saisie, grâce à une API météo externe.</p>
+                </div>
+                <div class="card" onclick="redirectTo('projects/4Projets-JS/Convertisseur/convertisseur.html')">
+                    <h3>Projet Convertisseur API</h3>
+                    <p>Convertit des devises en temps réel grâce à une API de taux de change.</p>
+                </div>
+            </div>
+
+            <script>
+                function redirectTo(url) {
+                    window.location.href = url;
+                }
+            </script>
+            <p style="width: 80%; margin: 20px auto;">Durée estimée : environ 7 heures pour les projets avec API et 5 heures pour ceux sans API.</p>
+            <div class="link">
+                <p><b><a href="projects/4Projets-JS/accueil.php" target="_blank">Ouvrir ce projet dans un nouvel onglet</a></b></p>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+    <!-- Fenêtre Modale 6 -->
+    <div id="modal6" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Knight Slime - Godot - Individuel</h2>
+            <div style="text-align: left; line-height : 1.5">
+                <h3>Exclusivement téléchargeable pour les utilisateurs Windows!</h3>
+                <p>Ce projet marque mes débuts dans le développement de jeux vidéo. Réalisé avec le moteur Godot, il m’a permis de découvrir les fondamentaux du game design, de la programmation interactive et de la création d’une boucle de gameplay fonctionnelle. J’ai récupérer et intégré les éléments graphiques, les scripts et les interactions, tout en m’initiant à la logique de scène et aux systèmes d’événements de Godot. </p>
+                <p>Durée estimée : 5 heures</p>
+            </div>
+            <div class="link">
+                <p><b><a href="projects/first-game.zip" download>Télécharger le jeu</a></b></p>
+            </div>
+        </div>
+    </div>
+
     <section id="experiences" class="experiences">
         <div>
             <h1>Expériences</h1>
