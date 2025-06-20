@@ -18,6 +18,7 @@
         <div class="spinner"></div>
         <p>Chargement en cours...</p>
     </div>
+    <div class="background"></div>
 
     <div class="flecheUp">
         <a href="#header"><img src="img/logo/fleche-droite.png" alt=""></a>
