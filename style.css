@@ -10,15 +10,19 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
 }
 
 body {
     font-family: "Outfit", sans-serif;
     color: rgb(64, 64, 64);
+    background-image: url(img/blour.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
-body::before {
+/*body::before {
     content: "";
     position: fixed;
     width: 100%;
@@ -29,7 +33,7 @@ body::before {
     background-size: cover;
     backdrop-filter: blur(100px);
     z-index: -1;
-}
+}*/
 
 h1 {
     font-weight: 600;
@@ -429,26 +433,6 @@ section {
     padding: 0;
 }
 
-@media screen and (max-width: 767px) {
-    .timeline-items::before {
-        left: 7px;
-    }
-
-    .timeline-item:nth-child(odd) {
-        padding-right: 0;
-        text-align: left;
-    }
-
-    .timeline-item:nth-child(odd),
-    .timeline-item:nth-child(even) {
-        padding-left: 37px;
-    }
-
-    .timeline-dot {
-        left: -1px;
-    }
-
-}
 
 @media screen and (max-width: 870px) {
     .apropos {
@@ -469,6 +453,28 @@ section {
 }
 
 @media screen and (max-width: 768px) {
+    .timeline-items::before {
+        left: 7px;
+    }
+
+    .timeline-item:nth-child(odd) {
+        padding-right: 0;
+        text-align: left;
+    }
+
+    .timeline-item:nth-child(odd),
+    .timeline-item:nth-child(even) {
+        padding-left: 37px;
+    }
+
+    .timeline-dot {
+        left: -1px;
+    }
+
+    .resume-block{
+        display: none;
+    }
+
     section {
         width: 90%;
         padding: 20px;
