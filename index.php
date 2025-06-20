@@ -19,6 +19,7 @@
         <p>Chargement en cours...</p>
     </div>
     <div class="background"></div>
+    <div class="blur-overlay"></div>
 
     <div class="flecheUp">
         <a href="#header"><img src="img/logo/fleche-droite.png" alt=""></a>
@@ -317,7 +318,7 @@
     <div id="modal6" class="modal">
         <div class="modal-content">
             <span class="close">&times;</span>
-            <h2>Knight Slime - Godot - Individuel</h2>
+            <h2 style="padding-bottom:20px">Knight Slime - Godot - Individuel</h2>
             <div style="text-align: left; line-height : 1.5">
                 <h3>Exclusivement téléchargeable pour les utilisateurs Windows!</h3>
                 <p>Ce projet marque mes débuts dans le développement de jeux vidéo. Réalisé avec le moteur Godot, il m’a permis de découvrir les fondamentaux du game design, de la programmation interactive et de la création d’une boucle de gameplay fonctionnelle. J’ai récupérer et intégré les éléments graphiques, les scripts et les interactions, tout en m’initiant à la logique de scène et aux systèmes d’événements de Godot. </p>

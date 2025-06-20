@@ -27,6 +27,18 @@ body {
     z-index: -2;
 }
 
+.blur-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    z-index: -1;
+}
+
 /*body::before {
     content: "";
     position: fixed;
@@ -708,7 +720,7 @@ section {
 }
 
 .modal-content{
-    background-color: rgba(190, 190, 190, 0.1);
+    background-color: rgba(255, 255, 255, 0.8);
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.5);
     margin: 8% auto;
@@ -800,7 +812,7 @@ section {
 }
 
 .modal .modal-content .containerf5projets .card {
-    background-color: rgba(190, 190, 190, 0.1);
+    background-color: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 1em;

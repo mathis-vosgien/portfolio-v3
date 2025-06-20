@@ -18,7 +18,6 @@ document.addEventListener("DOMContentLoaded", () => {
   // Sélectionne tous les boutons de fermeture
   const closeButtons = document.querySelectorAll(".close");
 
-  const header = document.getElementById('header');
 
   // Ouvrir la modale correspondante
   openButtons.forEach(button => {
@@ -27,7 +26,6 @@ document.addEventListener("DOMContentLoaded", () => {
           const modal = document.getElementById(modalId);
           if (modal) {
               modal.style.display = "block";
-              header.style.display = "none";
               document.body.classList.add("no-scroll");
           }
       });
@@ -37,7 +35,6 @@ document.addEventListener("DOMContentLoaded", () => {
   closeButtons.forEach(button => {
       button.addEventListener("click", () => {
           button.closest(".modal").style.display = "none";
-          header.style.display = "block";
           document.body.classList.remove("no-scroll");
       });
   });
@@ -47,7 +44,6 @@ document.addEventListener("DOMContentLoaded", () => {
       modals.forEach(modal => {
           if (event.target === modal) {
               modal.style.display = "none";
-              header.style.display = "block";
               document.body.classList.remove("no-scroll");
           }
       });
