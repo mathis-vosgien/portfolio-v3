@@ -410,10 +410,92 @@
         </div>
     </section>
     <section id="contact" class="contact">
-        <div>
-            <h1>En cours...</h1>
+        <h1>me contacter</h1>
+        <div class="divContact">
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20915.1318937965!2d2.550018198559078!3d49.060192738177655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e63c23b63e8461%3A0x3022e630a0d98ca7!2zVsOpbWFycw!5e0!3m2!1sen!2sfr!4v1741863292016!5m2!1sen!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="forms">
+                <form method="post" action="#Contact">
+                    <div class="name">
+                        <input class="littleLeft" type="text" name="name" placeholder="Nom" required>
+                    </div>
+                    <div class="details">
+                        <input class="littleLeft" type="email" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="texting">
+                        <textarea class="message" name="message" placeholder="Message" required></textarea>
+                    </div>
+                    <div class="submission">
+                        <input class="littleLeft" type="reset" name="reset" value="Annuler">
+                        <input class="littleRight" type="submit" name="submit" value="Envoyer">
+                    </div>
+                </form>
+
+                <?php
+                if (isset($_POST["submit"])) {
+                    // Initialisation des erreurs
+                    $errors = [];
+
+                    // Vérification et nettoyage des données
+                    $name = isset($_POST["name"]) ? htmlspecialchars(trim($_POST["name"])) : "";
+                    $email = isset($_POST["email"]) ? filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL) : "";
+                    $messageContent = isset($_POST["message"]) ? htmlspecialchars(trim($_POST["message"])) : "";
+
+                    // Vérifications des champs requis
+                    if (empty($name) || empty($email) || empty($messageContent)) {
+                        $errors[] = "Tous les champs sont requis.";
+                    }
+
+                    // Validation de l'email
+                    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+                        $errors[] = "L'adresse e-mail n'est pas valide.";
+                    }
+
+                    // Vérification de la longueur du message
+                    if (strlen($messageContent) < 10) {
+                        $errors[] = "Le message doit contenir au moins 10 caractères.";
+                    }
+
+                    // Si aucune erreur, envoi du mail
+                    if (empty($errors)) {
+                        $message = "Ce message a été écrit par :\r\n";
+                        $message .= "Nom : $name\r\n";
+                        $message .= "Email : $email\r\n";
+                        $message .= "Message :\r\n$messageContent";
+
+                        $headers = "Reply-To: $email\r\n";
+                        $to = "mathis.vosgien@lyceestvincent.fr";
+
+                        if (mail($to, "Message de Contact", $message, $headers)) {
+                            echo "<p style='text-align:center;'>L'email a bien été envoyé.</p>";
+                        } else {
+                            echo "<p style='text-align:center;'>Une erreur est survenue lors de l'envoi de l'email.</p>";
+                        }
+                    } else {
+                        // Affichage des erreurs
+                        foreach ($errors as $error) {
+                            echo "<p style='color: red;'>$error</p>";
+                        }
+                    }
+                }
+                ?>
+            </div>
         </div>
     </section>
+
+    <footer>
+        <div class="copy">
+            <a href="copyright.php">
+                <p>&#xA9; Copyright 2024-2026 - Mathis Vosgien - Tous droits réservés.</p>
+            </a>
+        </div>
+        <div class="icon">
+            <a href="https://github.com/imxthexe" target="_blank"><img src="img/logo/github.png" alt=""></a>
+            <a href="https://www.linkedin.com/in/mathis-vosgien/" target="_blank"><img src="img/logo/linkedin.png" alt=""></a>
+            <a href="img/pdf/resume.pdf" target="_blank"><img src="img/logo/cv.png" alt=""></a>
+        </div>
+    </footer>
 
     <script>
         const burger = document.querySelector('.burger');
