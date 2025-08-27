@@ -336,15 +336,19 @@
             <h2 class="title">Stages</h2>
             <div class="info">
                 <div class="stage-item">
-                    <h2>&#128073;&#127996; Stage - 1 semaine - UX/UI design - Citalid en 2023 - Paris 17ème</h2>
+                    <h2>&#128073;&#127996; MozArtsduWeb en 2025 - Développeur web - 4 semaines - Chantilly</h2>
+                    <p>Découverte du quotidien d'un développeur web en agence, travaillant sur des projets réels pour des clients variés. Principalement basés sur WordPress avec Elementor, ces projets m'ont permis de remettre mes connaissances en application de manière plus approfondie. </p>
+                </div>
+                <div class="stage-item">
+                    <h2>&#128073;&#127996; Citalid en 2023 - UX/UI design - 1 semaine - Paris 17ème</h2>
                     <p>Stage immersif avec le designer UX/UI de Citalid (une scale-up) où j'ai appris les bases de Figma et redécouvert le monde de l'entrepreneuriat, dans un open space.</p>
                 </div>
                 <div class="stage-item">
-                    <h2>&#128073;&#127996; Stage - 1 semaine - Web marketing - Logpoint en 2022 - Rueil-Malmaison</h2>
+                    <h2>&#128073;&#127996; Logpoint en 2022 - Web marketing - 1 semaine - Rueil-Malmaison</h2>
                     <p>J'ai passé une semaine à créer un site web sur WordPress et appris quelques techniques de SEO pour améliorer le référencement d'un site. Surtout, j'ai développé un goût pour le développement web.</p>
                 </div>
                 <div class="stage-item">
-                    <h2>&#128073;&#127996; Stage - 1 semaine - Marketing - Sophos en 2018 - Bezons</h2>
+                    <h2>&#128073;&#127996; Sophos en 2018 - Marketing - 1 semaine - Bezons</h2>
                     <p>J'ai découvert le monde de l'entreprise, ses différents départements et son organisation. Principalement rattaché à l'équipe marketing, j'ai rapidement vu comment sont organisés les salons professionnels et j'ai particulièrement apprécié la partie webmarketing.</p>
                 </div>
             </div>
