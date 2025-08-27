@@ -54,6 +54,7 @@
             <div class="logo">
                 <a href="https://github.com/mathis-vosgien" target="_blank"><img src="img/logo/github.png" alt=""></a>
                 <a href="https://www.linkedin.com/in/mathis-vosgien/" target="_blank"><img src="img/logo/linkedin.png" alt=""></a>
+                <a href="https://www.instagram.com/mvthisvgn/" target="_blank"><img src="img/logo/instagram.png" alt=""></a>
                 <a href="Resume03-25.pdf" target="_blank"><img src="img/logo/cv.png" alt=""></a>
             </div>
         </div>
