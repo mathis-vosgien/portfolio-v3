@@ -669,7 +669,6 @@ section {
     background: inherit;
     z-index: 1;
     transition: filter 0.5s ease-in-out;
-    filter: blur(2px) grayscale(50%);
 }
 
 .projets .container .openModal h2 {
@@ -961,10 +960,6 @@ section {
     font-family: "Outfit", sans-serif;
     font-size: 26px;
     padding: 0;
-}
-
-.divContact input:enabled{
-    border: solid 1px rgba(255, 255, 255, 0.2);
 }
 
 .divContact .littleLeft{

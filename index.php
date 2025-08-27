@@ -189,7 +189,7 @@
                 <h2>Vet X</h2>
             </button>
             <button class="openModal" data-modal="modal5" style="background-image: url(img/projects/4ProjJS.png)">
-                <h2>4 Projets JS</h2>
+                <h2>3 Projets JS</h2>
             </button>
             <button class="openModal" data-modal="modal6" style="background-image: url(img/projects/firstGame.png)">
                 <h2>Premier Jeu</h2>
@@ -284,7 +284,7 @@
     <div id="modal5" class="modal">
         <div class="modal-content">
             <span class="close">&times;</span>
-            <h2 style="padding-bottom:20px">4 Projets JS - HTML/CSS/JS - Individuel</h2>
+            <h2 style="padding-bottom:20px">3 Projets JS - HTML/CSS/JS - Individuel</h2>
             <div class="containerf5projets">
                 <div class="card" onclick="redirectTo('projects/4Projets-JS/ToDoList/todolist.html')">
                     <h3>Projet To-Do List</h3>
